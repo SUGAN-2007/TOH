@@ -15,6 +15,26 @@ body,ul,ol,h1,h2,a{
     position: fixed;
     top:0px;
 }
-.header p{
+.header {
     margin-top: 450px;
+    display: flex;
+    background-color: rgb(98, 91, 91);
+}
+.header a{
+    padding: 20px;
+    color: rgb(255, 250, 250);
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+.main p{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+    line-height: 25px;
+    text-align: center;
+}
+.main .spac{
+    line-height: 35px;
 }
