@@ -4,6 +4,9 @@ body,ul,ol,h1,h2,a{
     width: 100%;
     cursor: context-menu;
 }
+:root{
+    --color: rgb(255, 144, 0);;
+}
 #header .head{
     width: 100%;
     height: 450px;
@@ -38,7 +41,7 @@ body,ul,ol,h1,h2,a{
 .main p{
     font-size: 18px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 20px;
+    padding: 20px 20px 0 20px;
     line-height: 35px;
     text-align: center;
     font-size: 20px;
@@ -74,3 +77,52 @@ body,ul,ol,h1,h2,a{
 .main .n{
     color: rgb(255, 144, 0);
 }
+#history{
+    padding: 0 20px 20px 20px;
+}
+.history{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500px;
+}
+#history .orgin{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px 20px 0 20px;
+    line-height: 35px;
+    font-size: 20px;
+}
+#history .orgin2{
+    display: flex;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px 20px 0 20px;
+    line-height: 35px;
+    font-size: 20px;
+}
+.name{
+    position: absolute;
+    top: 1560px;
+    left: 1060px;
+    font-size: 15px;
+}
+.orgin .names{
+    color: var(--color) ;
+    font-size: 25px;
+}
+.year{
+    color: var(--color);
+}
+#sol{
+    padding: 20px;
+}
+#sol .sol{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500px;
+}
+.for{
+    color: var(--color);
+    font-size: 23px;
+    margin-left: 100px;
+}   

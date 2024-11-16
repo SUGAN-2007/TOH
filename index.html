@@ -8,13 +8,22 @@
  
     <style>
         .space{
-            margin-left: 30px;
+            margin-left: 100px;
         }
 
     </style>
     <script>
-        function navigateToPage() {
-            window.location.href = 'UI/color button/index.html';
+        function navigateToPage1() {
+            window.location.href = 'n=2.html';
+        }
+        function navigateToPage2() {
+            window.location.href = 'n=3.html';
+        }
+        function navigateToPage3() {
+            window.location.href = 'n=4.html';
+        }
+        function navigateToPage4() {
+            window.location.href = 'n=5.html';
         }
     </script>
 </head>
@@ -25,8 +34,8 @@
     </div>
     <div class="header">
         <a href="index.html">Home</a>
-        <a href="">Origin</a>
-        <a href="">Solution</a>
+        <a href="#history">Origin</a>
+        <a href="#sol">Solution</a>
         <a href="">Video</a>
         <a href="">Program</a>
     </div>
@@ -43,10 +52,39 @@
             </span><br><br>
             
             <span class="space">The</span> minimal number of moves required to solve a Tower of Hanoi puzzle is <span class="formu">2^n - 1</span>, where <span class="n">n</span> is the number of disks.
-        </p>
+        </p><hr>
     </div>
-    <!-- <div>
-        <button class="btn" style="margin-top: 20px;" onclick="navigateToPage()"><i class="animation"></i>BUTTON<i class="animation"></i></button>
-    </div> -->
+    <div id="history">
+        <p class="history">Origin :</p>
+        <p class="orgin">
+            <span class="space">The</span> puzzle was invented by the French mathematician <span class="names"> Édouard Lucas</span>, first presented in <span class="year"> 1883</span> as a game discovered by <br><span class="names">"N. Claus (de Siam)"</span> , and later published as a booklet in <span class="year"> 1889 </span>and in a posthumously-published volume of Lucas' Récréations mathématiques.
+             Accompanying the game was an instruction booklet, describing the game's purported origins in Tonkin, and claiming that according to legend Brahmins at a temple in Benares have been carrying out the movement of the "Sacred Tower of Brahma", 
+            consisting of sixty-four golden disks, according to the same rules as in the game, and that the completion of the tower would lead to the end of the world.
+             Numerous variations on this legend regarding the ancient and mystical nature of the puzzle popped up almost immediately.
+        </p>
+        <nav class="orgin2">
+            <div class="o2">
+                <span class="space">If</span> the legend were true, and if the priests were able to move disks at a rate of one per second, 
+                using the smallest number of moves, it would take them 2^64 − 1 seconds or roughly 585 billion years to finish,
+                 which is about 42 times the estimated current age of the universe. <br><br>
+                <span class="space">There</span> are many variations on this legend. For instance, in some tellings, the temple is a monastery, and the priests are monks. The temple or monastery may be in various locales including Hanoi, and may be associated with any religion. In some versions, other elements are introduced, such as the fact that the tower was created at the beginning of the world, or that the priests or monks may make only one move per day.
+            </div>
+                <img width="200px" style="padding: 20px;" src="image/math.jpg" alt="">
+            </div>
+        </nav>
+        <p class="name"> Édouard Lucas</p>
+    </div><hr>
+
+    <div id="sol">
+        <p class="sol">Solution :</p>
+        <p class="for">Solution for: </p>
+        <div class="but">
+            <button class="btn" style="margin-top: 20px;" onclick="navigateToPage1()"><i class="animation"></i> N = 2 <i class="animation"></i></button>
+            <button class="btn" style="margin-top: 20px;" onclick="navigateToPage2()"><i class="animation"></i> N = 3<i class="animation"></i></button>
+            <button class="btn" style="margin-top: 20px;" onclick="navigateToPage3()"><i class="animation"></i> N = 4 <i class="animation"></i></button>
+            <button class="btn" style="margin-top: 20px;" onclick="navigateToPage4()"><i class="animation"></i> N = 5 <i class="animation"></i></button>
+        </div> 
+    </div>
+
 </body>
 </html>
