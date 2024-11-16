@@ -19,6 +19,7 @@ body,ul,ol,h1,h2,a{
     margin-top: 450px;
     display: flex;
     background-color: rgb(98, 91, 91);
+    position: sticky;
 }
 .header a{
     padding: 20px;
