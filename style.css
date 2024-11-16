@@ -134,6 +134,13 @@ body,ul,ol,h1,h2,a{
 .btn{
     margin: 50px;
 }
+.chat{
+    position: fixed;
+    width: 50px;
+    top: 88%;
+    left: 94%;
+    cursor: pointer;
+}
 footer{
     text-align: center;
     color: whitesmoke;

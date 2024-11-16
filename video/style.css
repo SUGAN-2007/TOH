@@ -21,6 +21,23 @@ body,ul,ol,h1,h2,a{
     font-family: 'Courier New', Courier, monospace;
     letter-spacing: -1px;
 }
-.three video{
-
+video{
+    width: 500px;
+    height: 300px;
+    margin: 0 350px 0 350px;
+    outline: 2px solid rgb(117, 110, 110);
+    padding: 20px;
+}
+.chat{
+    position: fixed;
+    width: 50px;
+    top: 90%;
+    left: 94%;
+    cursor: pointer;
+}
+footer{
+    padding: 20px;
+    font-size: 20px;
+    margin: 20px 0 0 0;
+    text-align: center;
 }
