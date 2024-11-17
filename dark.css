@@ -1,0 +1,154 @@
+body,ul,ol,h1,h2,a{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    cursor: context-menu;
+    background-color: black;
+    color: white;
+}
+:root{
+    --color: rgb(255, 144, 0);
+}
+#header .head{
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+#header .fix{
+    width: 100%;
+    position: fixed;
+    top:0px;
+}
+.header {
+    margin-top: 450px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+}
+.header a{
+    padding: 20px;
+    background-color: rgb(122, 105, 73);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+.header a:hover{
+    text-shadow: 2px 2px 2px white ;
+    cursor: pointer;
+
+}
+.main p{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px 20px 0 20px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 20px;
+}
+.main .or{
+    color: orangered;
+}
+.main .rules{
+    color: rgb(99, 110, 183);
+    font-size: 20xp;
+}
+.main .rule{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.main .spac{
+    line-height: 35px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    color: rgb(255, 255, 255);
+}
+.main .formu{
+    color: rgb(255, 144, 0);
+    font-size: 30px;
+    padding: 5px;
+    cursor: pointer;
+}
+.main .formu:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 40px;
+}
+.main .n{
+    color: rgb(255, 144, 0);
+}
+#history{
+    padding: 0 20px 20px 20px;
+}
+.history{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500px;
+}
+#history .orgin{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px 20px 0 20px;
+    line-height: 35px;
+    font-size: 20px;
+}
+#history .orgin2{
+    display: flex;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px 20px 0 20px;
+    line-height: 35px;
+    font-size: 20px;
+}
+.name{
+    position: absolute;
+    top: 1560px;
+    left: 1060px;
+    font-size: 15px;
+}
+.orgin .names{
+    color: var(--color) ;
+    font-size: 25px;
+}
+.year{
+    color: var(--color);
+}
+#sol{
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+}
+#sol .sol{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500px;
+    color: rgb(255, 255, 255);
+}
+.for{
+    color: var(--color);
+    font-size: 23px;
+    margin-left: 100px;
+}   
+.but{
+    display: flex;
+}
+.btn{
+    margin: 50px;
+}
+.chat{
+    position: fixed;
+    width: 50px;
+    top: 88%;
+    left: 94%;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
