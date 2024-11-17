@@ -1,0 +1,31 @@
+body,ul,ol,h1,h2,a{
+    margin: 0;
+    padding: 0;
+    font-family:arial;
+    background-color: black;
+}
+.dis #dis{
+    font-size: 30px;
+    background-color: black;
+    margin: 0;
+    padding: 20px;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.icon{
+    position: absolute;
+    top: 5px;
+    left: 58%;
+}
+.dis .disc{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(78, 219, 53);
+    line-height: 30px;
+    letter-spacing: 1px;
+    padding: 30px;
+    background-repeat: no-repeat;
+}
