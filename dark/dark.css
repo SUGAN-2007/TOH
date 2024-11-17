@@ -88,6 +88,10 @@ body,ul,ol,h1,h2,a{
     font-family: 'Courier New', Courier, monospace;
     font-weight: 500px;
 }
+.history:hover{
+    text-shadow: 2px 2px 2px white ;
+    cursor: pointer;
+}
 #history .orgin{
     font-size: 18px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -125,6 +129,10 @@ body,ul,ol,h1,h2,a{
     font-family: 'Courier New', Courier, monospace;
     font-weight: 500px;
     color: rgb(255, 255, 255);
+}
+.sol{
+    text-shadow: 2px 2px 2px white ;
+    cursor: pointer;
 }
 .for{
     color: var(--color);
@@ -166,7 +174,6 @@ body,ul,ol,h1,h2,a{
     height: 23px;
     padding: 1px;
     border: none;
-    background-image: url(image/icons8-moon-50.png);
 }
 footer{
     text-align: center;
@@ -211,7 +218,7 @@ footer{
           box-shadow: 0 4px 12px rgba(0, 0, 0, .1);
           box-sizing: border-box;
           padding: 16px 20px;
-          color: #fff;
+          color: #000000;
           font-size: 12px;
           font-weight: 600;
           letter-spacing: 1.2px;
