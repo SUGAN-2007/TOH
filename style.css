@@ -141,6 +141,31 @@ body,ul,ol,h1,h2,a{
     left: 94%;
     cursor: pointer;
 }
+
+.back{
+    background-color: black;
+    width: 50px;
+    height: 30px;
+    border-radius: 40px;
+    position: fixed;
+    top: 2%;
+    left: 95%;
+    z-index: 1;
+    border: none;
+    cursor: pointer;
+}
+.light{
+    position: fixed;
+    top: 2.5%;
+    left: 95.2%;
+    z-index: 1;
+    border-radius: 20px;
+    width: 23px;
+    height: 23px;
+    padding: 1px;
+    border: none;
+    background-image: url(image/icons8-moon-50.png);
+}
 footer{
     text-align: center;
     color: whitesmoke;
