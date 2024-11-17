@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Program for TOH </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="website icon" href="image/icons8-terminal-100 (1).ico">
+</head>
+<body>
+    <div class="header">
+        <p class="pro"> Program </p>
+        <!-- <div class="nav">
+            <a href="">Python</a>
+            <a href="">Javascript</a>
+            <a href="">C++</a>
+            <a href="">java</a>
+            <a href="">C#</a>
+    </div> -->
+    <div class="ti">
+        <p>
+            <span class="space">The</span> Tower of Hanoi is a classic problem in computer science that involves recursion and algorithm design. 
+                It's often used to teach the concepts of problem-solving, recursion, and algorithm efficiency. <br><br>
+
+            <div class="rec">
+                <span class="title">Recursive Algorithm</span>       <br> <br>        
+                <span >The</span> recursive solution for the Tower of Hanoi can be expressed as follows: <br> <br>
+                <span class="one">1.</span>Move <span class="im">𝑛 - 1</span>disks from the <span class="im">source rod (A)</span> to the <span class="im">auxiliary rod (B).</span> <br>
+                <span class="one">2.</span>Move the <span class="im">largest disk (nth disk)</span> from the <span class="im">source rod (A)</span> to the <span class="im">destination rod (C)</span>. <br>
+                <span class="one">3.</span>Move <span class="im">n − 1 </span> disks from the <span class="im">auxiliary rod (B)</span> to the <span class="im">destination rod (C).</span> <br> <br>
+                This recursive process continues until 𝑛 = 1, which is the base case.
+            </div><br><hr>
+        </p>
+    </div>
+    <nav id="python">
+        <p class="title" style="margin-left: 20px;">In Python</p>
+        <p class="python">
+            <span class="com"> # Recursive Python function to solve tower of hanoi</span><br>
+
+
+<span class="blue">def</span> TowerOfHanoi(n, from_rod, to_rod, aux_rod): <br>
+    <span class="blue">if</span> n <span class="pink">==</span> <span class="violet">0</span>: <br>
+        <span style="margin-left: 40px; color: rgb(102, 217, 239);" >return <br></span>
+    TowerOfHanoi(n <span class="pink">-</span><span class="violet">1</span>, from_rod, aux_rod, to_rod) <br>
+    print("<span class="yellow">Move disk</span>", n, "<span class="yellow">from rod</span>", from_rod, "<span class="yellow">to rod</span>", to_rod) <br>
+    TowerOfHanoi(n <span class="pink">-</span><span class="violet">1</span>, aux_rod, to_rod, from_rod) <br>
+ <br>
+
+    <span class="com">    # Driver code</span> <br>
+    N <span class="pink">=</span> <span class="violet">3</span> <br>
+
+    <span class="com">    # A, C, B are the name of rods</span> <br>
+    TowerOfHanoi(N, '<span class="yellow">A</span>', '<span class="yellow">C</span>', '<span class="yellow">B</span>') <br>
+        </p>
+    </nav><hr>
+    <nav id="javascript">
+        <p class="title" style="margin-left: 20px;">In JavaScript</p>
+        <p class="python">
+            <span class="com"> // javascript recursive function to</span> <br>
+            <span class="com">// solve tower of hanoi puzzle </span> <br>
+            <span class="blue">function</span> towerOfHanoi(n, from_rod,  to_rod,  aux_rod) <br>
+                { <br>
+                    <span class="blue"><span class="iden">if</span></span> (n <span class="pink">==</span> <span class="violet">0</span>) <br>
+                    { <br>
+                        <span class="blue" style="margin-left: 100px;">return</span>; <br>
+                    } <br>
+                    <span class="iden">towerOfHanoi</span>(n <span class="pink">-</span> <span class="violet">1</span>, from_rod, aux_rod, to_rod); <br>
+                    <span class="iden" style="color: rgb(73, 233, 142);">document</span>.write("<span class="yellow">Move disk</span>" <span class="pink">+</span> n <span class="pink">+</span> " <span class="yellow">from rod</span>" <span class="pink">+</span> from_rod <span class="pink">+</span> " <span class="yellow">to rod</span>" <span class="pink">+</span> to_rod); <br>
+                    <span class="iden">towerOfHanoi</span>(n <span class="pink">-</span> <span class="violet">1</span>, aux_rod, to_rod, from_rod); <br>
+                <span style="margin-left: 25px;">}</span> <br>
+
+                <span class="ide"><span class="com">// Driver code</span></span> <br>
+                <span class="ide"><span class="blue">var</span> N <span class="pink">=</span> <span class="violet">3;</span> <br>
+                 
+                <span class="ide"><span class="com">// A, C, B are the name of rods</span></span> <br>
+                <span class="ide">towerOfHanoi</span>(N, '<span class="yellow">A</span>', '<span class="yellow">C</span>', '<span class="yellow">B</span>'); <br>
+                            
+        </p>
+    </nav>
+</body>
+</html>
