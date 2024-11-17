@@ -5,7 +5,7 @@ body,ul,ol,h1,h2,a{
     cursor: context-menu;
 }
 :root{
-    --color: rgb(255, 144, 0);;
+    --color: rgb(255, 144, 0);
 }
 #header .head{
     width: 100%;
