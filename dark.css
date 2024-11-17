@@ -140,7 +140,7 @@ body,ul,ol,h1,h2,a{
 .chat{
     position: fixed;
     width: 50px;
-    top: 88%;
+    top: 85%;
     left: 94%;
     cursor: pointer;
 }
